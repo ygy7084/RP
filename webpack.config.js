@@ -9,8 +9,7 @@ module.exports = {
         'whatwg-fetch',
         'react',
         'react-dom',
-        './index.js',
-        './style.css'],
+        './index.js'],
     output : {
         path: resolve(__dirname, 'public'),
         filename: 'bundle.js',
@@ -34,12 +33,6 @@ module.exports = {
                         loader: 'babel-loader',
                         query: {
                             presets: ['es2015']
-                        }
-                    },
-                    {
-                        loader: 'react-svg-loader',
-                        query: {
-                            jsx: true
                         }
                     }
                 ]

@@ -1,5 +1,4 @@
 import React from 'react';
-import Radium from 'radium';
 import {
     Link
 } from 'react-router-dom';
@@ -31,4 +30,4 @@ const style = {
     }
 };
 
-export default Radium(SideBar);
+export default SideBar;

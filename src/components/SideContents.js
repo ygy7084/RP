@@ -1,5 +1,4 @@
 import React from 'react';
-import Radium from 'radium';
 
 class SideContents extends React.Component {
     render() {
@@ -17,4 +16,4 @@ const style = {
     }
 };
 
-export default Radium(SideContents);
+export default SideContents;

@@ -1,5 +1,4 @@
 import React from 'react';
-import Radium from 'radium';
 
 class Table extends React.Component {
     constructor(props) {
@@ -44,4 +43,4 @@ class Table extends React.Component {
     }
 }
 
-export default Radium(Table);
+export default Table;

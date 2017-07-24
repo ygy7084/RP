@@ -1,7 +1,12 @@
 import React from 'react';
 import FileDownload from 'react-file-download';
 
+/*
+body에 대한 css와
+react date picker 및 loader에 대한 css입니다.
+ */
 import style from '../main.css';
+
 
 import {
     Header,
@@ -1286,6 +1291,8 @@ class Main extends React.Component {
                     LoaderModal_on:false,
                 });
                 FileDownload(blob, 'reservations.xlsx');
+                this.loadSeats(this.state.time_picked);
+
             })
             .catch((err) => {
                 this.setState({

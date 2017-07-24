@@ -1,5 +1,4 @@
 import React from 'react';
-import Radium from 'radium';
 
 class ExcelModal extends React.Component {
     constructor(props) {
@@ -33,4 +32,4 @@ class ExcelModal extends React.Component {
     }
 }
 
-export default Radium(ExcelModal);
+export default ExcelModal;

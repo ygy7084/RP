@@ -1,5 +1,4 @@
 import React from 'react';
-import Radium from 'radium';
 
 import {
     Link
@@ -30,4 +29,4 @@ const style = {
     }
 };
 
-export default Radium(Entry);
+export default Entry;

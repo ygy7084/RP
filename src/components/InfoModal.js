@@ -1,5 +1,4 @@
 import React from 'react';
-import Radium from 'radium';
 
 class InfoModal extends React.Component {
     constructor(props) {
@@ -47,4 +46,4 @@ class InfoModal extends React.Component {
     }
 }
 
-export default Radium(InfoModal);
+export default InfoModal;
